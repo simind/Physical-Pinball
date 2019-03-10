@@ -2,7 +2,7 @@
 cc.Class({
     extends: cc.Component,
     properties: {
-        progressBar: null,
+        progressBar: cc.ProgressBar,
         loadingLabel: cc.Label,
         startButton: cc.Button
     },
